@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Responsive Sidebar</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="footercss.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+       
+</style>  
+<body>
+  
+  <div class="sidebar">
+    <div class="logo_details">
+      <i class="bx bxl-audible icon"></i>
+      <div class="logo_name">Lugu Hir</div>
+      <i class="bx bx-menu" id="btn"></i>
+    </div>
+    <ul class="nav-list">
+      <li>
+        <i class="bx bx-search"></i>
+        <input type="text" placeholder="Search...">
+         <span class="tooltip">Search</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class="bx bx-grid-alt"></i>
+          <span class="link_name">Home</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="#">
+          <i class="bx bx-store"></i>
+          <span class="link_name">Store</span>
+        </a>
+        <span class="tooltip">Store</span>
+        <ul class="submenu">
+          <li><a href="#">Featured</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">All Games</a></li>
+        </ul>
+      </li>
+      
+      <li>
+        <a href="#">
+          <i class="bx bx-book"></i>
+          <span class="link_name">Library</span>
+        </a>
+        <span class="tooltip">Library</span>
+      </li>
+
+      <li>
+        <a href="#">
+          <i class="bx bx-cog"></i>
+          <span class="link_name">Settings</span>
+        </a>
+        <span class="tooltip">Settings</span>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <section class="home-section">
+    <div class="container">
+      <img class ="game-img" src="C:\xampp\htdocs\page5\proto1\public\rectangle-82@2x.png" alt="">
+      <div class="content"><h1>GHOST OF TSUSHIMA</h1><br>
+      <p>This is an action game in which players assume the role of a samurai (Jin Sakai) <br>
+      on a quest for vengeance against Mongol invaders in 13th century Japan. Players traverse<br>
+      open-world environments, interact with characters, comple quest (e.g., assassination),<br>
+      and infiltrate enemy strongholds.</p>
+      <div class="small-img">
+          <img src="C:\xampp\htdocs\page5\proto1\public\1.webp" alt="">
+          <img src="C:\xampp\htdocs\page5\proto1\public\2.webp" alt="">
+          <img src="C:\xampp\htdocs\page5\proto1\public\3.webp" alt="">
+        </div>
+          <div class="add">
+        <button>Add to Library</button>
+      </div>
+  </div>
+</section>
+<section class="home-section">
+  <div class="top-games" style="background-color: #31363F; margin-top: 120px; padding: 20px;width: 100%;">
+    <div class="header-text">
+       MORE LIKE THIS
+    </div>
+    
+    <div class="game-containers" style="display: flex; align-items: center; column-gap: 20px; padding: 10px;">
+        <div class="navigation-buttons" style="margin-bottom: 20px; display: flex; justify-content: center;">
+            <button id="prevButton">Previous</button>
+        </div>
+        <div class="image-container">
+            <img src="C:\xampp\htdocs\page5\proto1\public\rectangle-5@2x.png" alt="red-dead">
+        </div>
+        <div class="image-container">
+            <img src="C:\xampp\htdocs\page5\proto1\public\rectangle-4@2x.png" alt="red-dead">
+        </div>
+        <div class="image-container">
+            <img src="C:\xampp\htdocs\page5\proto1\public\rectangle-6@2x.png" alt="red-dead">
+        </div>
+        <div class="image-container">
+            <img src="C:\xampp\htdocs\page5\proto1\public\rectangle-7@2x.png" alt="red-dead">
+        </div>
+        <div class="image-container">
+            <img src="C:\xampp\htdocs\page5\proto1\public\rectangle-8@2x.png" alt="red-dead">
+        </div>
+        <div class="image-container">
+            <img src="C:\xampp\htdocs\page5\proto1\public\rectangle-10@2x.png" alt="red-dead">
+        </div>
+        <div class="image-container">
+            <img src="C:\xampp\htdocs\page5\proto1\public\rectangle-11@2x.png" alt="red-dead">
+        </div>
+        <div class="image-container">
+            <img src="C:\xampp\htdocs\page5\proto1\public\rectangle-12@2x.png" alt="red-dead">
+        </div>
+        <div class="image-container">
+            <img src="C:\xampp\htdocs\page5\proto1\public\rectangle-52@2x.png" alt="red-dead">
+        </div>
+        <div class="image-container">
+            <img src="C:\xampp\htdocs\page5\proto1\public\rectangle-4@2x.png" alt="red-dead">
+        </div>
+        <div class="image-container">
+            <img src="C:\xampp\htdocs\page5\proto1\public\rectangle-55@2x.png" alt="red-dead">
+        </div>
+        <div class="image-container">
+            <img src="C:\xampp\htdocs\page5\proto1\public\rectangle-11@2x.png" alt="red-dead">
+        </div>
+        <div class="image-container">
+            <img src="C:\xampp\htdocs\page5\proto1\public\rectangle-8@2x.png" alt="red-dead">
+        </div>
+        <div class="image-container">
+            <img src="C:\xampp\htdocs\page5\proto1\public\rectangle-56@2x.png" alt="red-dead">
+        </div>
+        <div class="image-container">
+            <img src="C:\xampp\htdocs\page5\proto1\public\rectangle-12@2x.png" alt="red-dead">
+        </div>
+        
+        <div class="navigation-buttons" style="margin-top: 20px; display: flex; justify-content: center;">
+        <button id="nextButton"><img src="images/next-page@2x.png" alt="">Next</button>
+    </div>
+    </div>
+</div>
+  </section>
+  <section class="footer-section">
+    <footer>
+      <div class="footer-content">
+          <div class="footer-column">
+              <h3>Navigation</h3>
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+          <div class="footer-column">
+              <h3>About</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam interdum justo vitae ligula luctus, ac ultrices justo tempor.</p>
+          </div>
+          <div class="footer-column">
+              <h3>Follow Us</h3>
+              <div class="social-icons">
+                  <a href="#" class="social-icon"><i class="bx bxl-facebook"></i></a>
+                  <a href="#" class="social-icon"><i class="bx bxl-twitter"></i></a>
+                  <a href="#" class="social-icon"><i class="bx bxl-instagram"></i></a>
+                  <a href="#" class="social-icon"><i class="bx bxl-linkedin"></i></a>
+              </div>
+              <div class="search-bar">
+                  <input type="text" placeholder="Search...">
+                  <button><i class="bx bx-search"></i></button>
+              </div>
+          </div>
+      </div>
+      <p>&copy; 2024 My Website. All rights reserved.</p>
+  </footer>
+</section>
+  
+  <script src="script.js"></script>
+
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const imageContainers = document.querySelectorAll(".image-container");
+        const prevButton = document.getElementById("prevButton");
+        const nextButton = document.getElementById("nextButton");
+        const numImagesPerPage = 5;
+        let currentPage = 0;
+
+        function showPage(page) {
+            const startIndex = page * numImagesPerPage;
+            const endIndex = startIndex + numImagesPerPage;
+            imageContainers.forEach((container, index) => {
+                if (index >= startIndex && index < endIndex) {
+                    container.style.display = "block";
+                } else {
+                    container.style.display = "none";
+                }
+            });
+        }
+
+        function nextPage() {
+            currentPage++;
+            if (currentPage >= Math.ceil(imageContainers.length / numImagesPerPage)) {
+                currentPage = 0;
+            }
+            showPage(currentPage);
+        }
+
+        function prevPage() {
+            currentPage--;
+            if (currentPage < 0) {
+                currentPage = Math.ceil(imageContainers.length / numImagesPerPage) - 1;
+            }
+            showPage(currentPage);
+        }
+
+        // Initial display
+        showPage(currentPage);
+
+        // Event listeners
+        nextButton.addEventListener("click", nextPage);
+        prevButton.addEventListener("click", prevPage);
+    });
+</script>
+
+</body>
+</html>
